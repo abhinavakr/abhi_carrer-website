@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>abhi-carrer</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+<!--   <style>
+    h1{
+      font-size:50px;
+      color:rgb(50,50,50);
+      text-align: center;
+      font-family:Roboto;
+    }
+    #banner {
+      width:100%;
+      height:360px;
+      object-fit:cover;
+      
+    }
+    h2 {
+      font-style:asterisks;
+      font-size:32px;
+      color:rgb(100,100,100);
+      text-align: center;
+      
+    }
+    p {
+      font-family:Roboto;
+      color:rgb(80,80,80)
+    }
+    #container{
+      max-width:920px;
+      margin:0 auto 0 auto;
+    }
+  </style> -->
+</head>
+<body>
+  <div class ="container">
+  <h1 class="text-center"class="fw-bold" >abhi_carrer</h1>
+  <img class="img-fluid" src="https://s3.eu-west-1.amazonaws.com/pro.static.portalstdo.tmb.cat/styles/galeria_slider/s3/s3fs-public/2017-10/REF_CARRER_MONTCADA_CT6A9633.jpg?itok=KWSm7hP_"  height="320 " alt="html dog">
+<h1 class="text-center">about abhiii</h1>
+  <p class="text-center" class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt eget nullam non nisi est sit amet facilisis. Blandit aliquam etiam erat velit scelerisque in. Non blandit massa enim nec dui nunc mattis enim ut. Massa tincidunt nunc pulvinar sapien. Cursus risus at ultrices mi tempus. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Pellentesque id nibh tortor id aliquet lectus proin nibh. Amet commodo nulla facilisi nullam vehicula ipsum a. Dui vivamus arcu felis bibendum ut. Ac odio tempor orci dapibus ultrices in iaculis. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Dolor sed viverra ipsum nunc aliquet bibendum enim.</p>
+  <h2 class="text-center" class="fw-bold">Open Position</h2>
+  <div>
+    {%for job in jobs%}
+   {% include 'jobitem.html' %}
+    
+    {%endfor%}
+    <div>
+<button type="button" class="btn btn-outline-success">contach us</button>
+
+    </div>
+  
+</body>
+</html>
